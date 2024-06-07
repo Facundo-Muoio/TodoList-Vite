@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>TODO APP</title>
+		<!-- cdn de fontawesome -->
+		<script
+			src="https://kit.fontawesome.com/4dc73a2bed.js"
+			crossorigin="anonymous"
+		></script>
+	</head>
+	<body>
+		<div id="app">
+			<form id="form-todo">
+				<input type="text" placeholder="¿What i have to do?" required />
+				<button type="submit"><b>+</b></button>
+			</form>
+			<ul class="listToDos"></ul>
+			<span class="counter_pendings">Pendings</span>
+			<button class="btn_filter">All</button>
+			<button class="btn_filter">Pendings</button>
+			<button class="btn_filter">Completed</button>
+			<button class="clearAll">Delete all completed</button>
+		</div>
+		<script type="module" src="/main.js"></script>
+	</body>
+</html>
